@@ -1,8 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import CartIcon from '../../assets/images/icon-cart.svg'
-import Avatar from '../../assets/images/image-avatar.png'
-import Logo from '../../assets/images/logo.svg'
 
 export function Navbar() {
   return (
@@ -10,7 +7,7 @@ export function Navbar() {
       <nav className='w-[85%] h-full flex items-center justify-between border-b-[1px] border-grayish-blue mx-auto'>
         <div className='flex items-center justify-center gap-10'>
           <Link href={'/'}>
-            <Image src={Logo} width={138} height={20} alt='Sneakers' />
+            <Image src={'logo.svg'} width={138} height={20} alt='Sneakers' />
           </Link>
           <ul className='h-5 flex gap-10'>
             <li>
@@ -57,10 +54,15 @@ export function Navbar() {
         </div>
         <div className='flex gap-10'>
           <button className='cursor-pointer'>
-            <Image src={CartIcon} alt='Cart Icon' width={22} height={20} />
+            <Image
+              src={'icon-cart.svg'}
+              alt='Cart Icon'
+              width={22}
+              height={20}
+            />
           </button>
           <Image
-            src={Avatar}
+            src={'/image-avatar.png'}
             alt='Avatar'
             width={100}
             height={100}
