@@ -2,7 +2,7 @@
 
 Este repositório contém uma landing page desenvolvida para apresentar um produto de calçados de forma simples e direta. A página destaca os principais diferenciais do produto com foco em estética e clareza.
 
-![Design Desktop](./public/desktop-design.jpg)
+<img src="./public/desktop-design.jpg" alt="Degisng Desktop" />
 
 ### Site em produção
 
