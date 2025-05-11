@@ -6,7 +6,7 @@ Este repositório contém uma landing page desenvolvida para apresentar um produ
 
 ### Site em produção
 
-👉 [Acesse a landing page aqui](https://)
+👉 [Acesse a landing page aqui](https://projeto-top-spec-int.vercel.app/)
 
 ### Dependências
 
